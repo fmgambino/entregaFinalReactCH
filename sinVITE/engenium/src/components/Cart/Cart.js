@@ -39,7 +39,7 @@ const Cart = () => {
             cart.map( (elemento,i) => {
                 return(
                     <>
-                        <Grid className="grid-container" container spacing={0}>
+                        <Grid key={elemento.id} className="grid-container" container spacing={0}>
                             <Grid item md={3} >
                                 <div className="div-img-item">
                                     <img className='img-item' alt="Imagen Item" src={`../${elemento.imagen}`} />    
