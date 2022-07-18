@@ -1,0 +1,32 @@
+.div__container{
+    text-align: center;
+}
+
+.div__container img{
+    max-width: 50%;
+}
+
+p{
+    padding:1rem;
+}
+
+.img-representantes{
+    width: 35%;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.margin-projects{
+    margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 900px) {
+    .div__container img{
+        max-width: 100%;
+    }
+
+    .img-representantes{
+        width: 75%;
+    }
+
+}

@@ -1,0 +1,30 @@
+.item-card{
+    margin: 10px 5px;
+}
+.container-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container-card img{
+    width: 100%;
+}
+.container-card p{
+    font-weight: bold;
+    font-size: 125%;
+    margin: 5px 0px;
+}
+.container-card span{
+    margin-bottom: 5px;
+}
+.container-card .card__btn{
+    width: 100%;
+}
+
+.container-card .card__btn:hover{
+    background-color: lightslategray; 
+}
+.link-color{
+    color: white;
+    text-decoration:none;
+}

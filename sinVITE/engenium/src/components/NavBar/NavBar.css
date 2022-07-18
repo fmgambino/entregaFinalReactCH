@@ -1,0 +1,133 @@
+@keyframes rotate-center {
+    0% {
+      transform: rotate(0); }
+    100% {
+      transform: rotate(360deg); } 
+}
+.container-logo{
+  display: flex;
+  padding: 5px 0px;
+  align-items: center;
+}
+.container-logo h1{
+  color: white;
+  padding: 0px 0px 0px 0.5rem;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.container-logo h1 span{
+  margin: 0px 0px 0px 0.5rem;
+}
+.nav-logo-img{
+  padding: 5px 0px;
+  animation: rotate-center 2s ease-in both;
+}
+.container-list{
+  display: flex; 
+  align-items: center;
+  padding: 5px 0px;
+}
+.container-list ul{
+  list-style: none;  
+}
+.container-list ul li{
+  display: inline-block;
+  margin: 0px 0.35rem;
+}
+.container-list .navbar__btn{
+  font-size: 15px;
+  font-weight: 500;
+}
+.container-list .navbar__btn:hover {
+  background-color: lightslategray; 
+}
+
+.link-color{
+  color: white;
+  text-decoration:none;
+  display: flex;
+  align-items: center;
+}
+
+.container-list li ul {
+  display:none;
+  position:absolute;
+    
+}
+
+.container-list li:hover > ul {
+  display:block;
+}
+
+.container-list li ul li {
+  display:block;
+  position:relative;
+  background-color: lightslategray;
+}
+.container-list li ul li:hover {
+  background-color:rgb(140, 159, 179);
+}
+
+@media only screen and (max-width: 899px) {
+  .container-logo{
+    display: flex;
+    padding: 5px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-list{
+    display: none; 
+  }
+  .mobile-list{
+    display: flex;
+    align-items: flex-start;
+  }
+  .mobile-list ul{
+    list-style: none;  
+  }
+  .mobile-list .navbar__btn{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .mobile-list .navbar__btn:hover {
+    background-color: lightslategray; 
+  } 
+  .link-color{
+    color: white;
+    text-decoration:none;
+  }
+  .mobile-list li ul {
+    display:none;      
+  }
+  .mobile-list li:hover > ul {
+    display:block;
+  }
+  .mobile-list li ul li {
+    background-color: lightslategray;
+  }
+  .mobile-list li ul li:hover {
+    background-color:rgb(140, 159, 179);
+  }
+  .desktop_divcarrito{
+    display: none;
+  }
+  .mobile_divcarrito{
+    display:flex;
+  }
+  .div_mobilelist{
+    width: 75vw;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .mobile-list{
+    display: none;
+  }
+  .desktop_divcarrito{
+    display:flex;
+  }
+  .mobile_divcarrito{
+    display: none;
+  }
+}

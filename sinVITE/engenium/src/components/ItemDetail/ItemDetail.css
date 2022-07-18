@@ -1,0 +1,43 @@
+.border-grid{
+    border:2px solid #b3b3b3;     
+}
+.border-gridSpacing{
+    border-right:2px solid #b3b3b3;    
+}
+.img-Detail{
+    width: 100%;
+}
+.h2-Detail{
+    background-color: #e9e8e8;
+    border-bottom: 3px solid #b3b3b3;
+    padding: 0.5rem;
+    margin:1rem;
+}
+.div-Detail{
+    margin:1rem;
+}
+.grid-interno{
+    padding: 0px 1rem 0px 1rem;
+    justify-items: center;
+}
+.link-end{
+    color: white;
+    text-decoration:none;
+}
+.container-btn{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0px;
+}
+.container-btn .btn__end:hover{
+    background-color: lightslategray; 
+}
+
+.margin-boxies{
+    margin-bottom: 35%;
+}
+
+
+
+ 

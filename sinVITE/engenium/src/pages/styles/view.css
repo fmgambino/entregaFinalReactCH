@@ -1,0 +1,16 @@
+.generalView{
+    height:100vh;
+}
+.generalView_maxcontent{
+    height:max-content
+}
+
+.footer-posicionamiento{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.margin-products{
+    margin-bottom: 3%;
+}

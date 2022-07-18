@@ -1,0 +1,17 @@
+.container-cart{
+    display: flex; 
+    align-items: center;     
+}
+.container-cart .carrito__btn:hover{
+    background-color:cadetblue;    
+}
+.link-end{
+    color: white;
+    text-decoration:none;
+}
+.count-items{
+    display: inline-flex; 
+    align-items: center; 
+    padding: 0.25rem;
+    margin: 0.25rem;
+}

@@ -1,0 +1,36 @@
+.footer_h3{
+  text-decoration: underline;
+  color: white;
+  padding: 0;
+  margin: 0;
+  display: inline-block
+}
+.footer__list {
+  list-style: none;
+  color: white;
+  padding-left: 0rem;
+  padding-right: 0rem; 
+  font-size: 0.85rem;
+}
+.footer_flex{
+  display: flex;
+}
+.footer-item{
+  padding-right: 1rem;
+}
+.footer-div .footer-icon:hover{
+  background-color:#1976d2;
+}
+.footer-posicionamiento{
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer-div{
+  margin:1rem;
+}
+
+.footer-color{
+  color: white;
+  text-decoration:none;
+}
