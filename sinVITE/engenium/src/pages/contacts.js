@@ -112,10 +112,10 @@ const Contacto = () => {
                     <Grid item md={6} xs={12}>
                         <div>
                             <ul>
-                                <li>Estados Unidos 1200, Munro, Buenos Aires, Argentina</li>
-                                <li>(+54 11)8888-7474</li>
-                                <li>contacto@engenium.com.ar</li>
-                                <li>Horario de atencion: Lunes a Viernes de 8:00 a 17:00 hs</li>
+                                <li>San Miguel de Tucuman, Tucuman, Argentina</li>
+                                <li>(+54 11)2409-9788</li>
+                                <li>electronicagambino@gmail.com</li>
+                                <li>Horario de atencion: Lunes a Viernes de 10:00 a 18:00 hs</li>
                             </ul>    
                         </div>                            
                     </Grid>

@@ -20,8 +20,14 @@
   margin: 0px 0px 0px 0.5rem;
 }
 .nav-logo-img{
+  width: 200px !important;
+  height: 60px !important;
   padding: 5px 0px;
-  animation: rotate-center 2s ease-in both;
+  /* animation: rotate-center 2s ease-in both; */
+  border-radius: 0% !important;
+  overflow: hidden;
+
+
 }
 .container-list{
   display: flex; 

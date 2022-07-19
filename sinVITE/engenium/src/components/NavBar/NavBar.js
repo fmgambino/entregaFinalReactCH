@@ -71,10 +71,10 @@ const NavBar = () => {
                             <Avatar
                                 className='nav-logo-img'
                                 alt="Logo ENGENIUM"
-                                src="../logo.png"
-                                sx={{ width: 60, height: 60 }}
+                                src="../logoEG.png"
+                                // sx={{ width: 260, height: 60 }}
                             />
-                           <h1>ENGENIUM</h1>      
+                           {/* <h1>ELECTRONICA GAMBINO</h1>       */}
                         </Link>                               
                     </div>    
                 </Grid>
