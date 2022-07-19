@@ -15,7 +15,7 @@ const Aboutus = () => {
                     </Grid>
                     <Grid item md={6} xs={12}>
                         <div className="div_parrafos">
-                            <p><b>Engenium</b> nace por la actitud emprendedora de un equipo de <b>Ingenieros/Tecnicos</b> con marcada experiencia en la prestación de soluciones integrales de <b>automatización y control</b> para la industria.</p>
+                            <p><b>Electronica Gamino</b> nace por la actitud emprendedora de un equipo de <b>Ingenieros/Tecnicos</b> con marcada experiencia en la prestación de soluciones integrales de <b>automatización y control</b> para la industria.</p>
                             <p>El constante crecimiento del mercado en el marco de la <b>innovación tecnológica</b> nos brinda la posibilidad de desarrollarnos para y con nuestros clientes; compromiso que asumimos con total confianza en nuestro grupo de profesionales altamente capacitados.</p>
                             <p>Nuestro campo de acción alcanza a toda actividad que requiera mejorar y optimizar la productividad, asegurar una constante de alta calidad, garantizando la prestación continua de servicio.</p>   
                         </div>
