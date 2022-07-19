@@ -1,6 +1,8 @@
 import './CartWidget.css';
 import ShoppingCartTwoToneIcon from '@mui/icons-material/ShoppingCartTwoTone';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
+
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import { useContext } from "react";
@@ -17,7 +19,7 @@ const CartWidget = () => {
                     <div className="container-cart">
                         <Button color="inherit" className='carrito__btn'>
                             <Link to ="/cart" className="link-end">
-                                <ShoppingBagIcon />                  
+                                <ShoppingBagOutlinedIcon />                  
                                 {<h2 className='count-items'>{prodsInCart}</h2>}    
                             </Link>                                  
                         </Button>
