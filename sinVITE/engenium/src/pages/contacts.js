@@ -16,8 +16,7 @@ const Contacto = () => {
     const [flag, setFlag] = useState(true);
     const [msgId, setMsgId] = useState("");
 
-    const iframeSource = '<iframe class="div_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13147.523808575534!2d-58.51419299999999!3d-34.53124400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd15e0d94908f499e!2sELECTRO%20SELEC!5e0!3m2!1ses!2sar!4v1655990588601!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
-    
+    const iframeSource = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.234748527497!2d-65.19778268495674!3d-26.832484883162305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225ce6ab2c9f65%3A0x65e8bfeafa1c151b!2sELECTR%C3%93NICA%20GAMBINO!5e0!3m2!1ses-419!2sar!4v1658193980855!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
     const handleSubmit = (e) => {
         e.preventDefault();
     

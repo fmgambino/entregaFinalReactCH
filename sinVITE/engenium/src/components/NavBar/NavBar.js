@@ -62,7 +62,7 @@ const NavBar = () => {
 
     return (
         <>
-        <AppBar position="static">
+        <AppBar position="static" className='fondoNavBar'> 
             <Toolbar>
             <Grid container spacing={0}>
                 <Grid item md={3} xs={12}>

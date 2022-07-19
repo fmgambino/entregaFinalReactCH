@@ -25,3 +25,7 @@
 .container__gral .container-btn .btn-carrito:hover{
     background-color: lightslategray; 
 }
+
+.btn-carrito{
+    background-color: #7ecc00 !important;
+}
