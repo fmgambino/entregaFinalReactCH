@@ -31,22 +31,22 @@ const Footer = ({propiedad}) => {
                             <h3 className="footer_h3">Redes Sociales</h3>
                             <ul className="footer__list footer_flex">
                                 <li className="footer-item">
-                                    <a href="https://facebook.com" target="_blank" rel="noreferrer" className="footer-color">
+                                    <a href="https://facebook.com/electronicagambino.tuc" target="_blank" rel="noreferrer" className="footer-color">
                                         <FacebookIcon id="facebook" onMouseOver={()=>mouseOver('#3b5998','facebook')} onMouseOut={()=>mouseOut('facebook')}/> 
                                     </a>
                                 </li>
                                 <li className="footer-item">
-                                    <a href="https://instagram.com" target="_blank" rel="noreferrer" className="footer-color">
+                                    <a href="https://instagram.com/electronicagambbino" target="_blank" rel="noreferrer" className="footer-color">
                                         <InstagramIcon id="instagram" onMouseOver={()=>mouseOver('#bc2a8d','instagram')} onMouseOut={()=>mouseOut('instagram')}/>
                                     </a>
                                 </li>
                                 <li className="footer-item">
-                                    <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="footer-color">
+                                    <a href="https://www.linkedin.com/company/electronica_gambino/" target="_blank" rel="noreferrer" className="footer-color">
                                         <LinkedInIcon id="linkedin" onMouseOver={()=>mouseOver('#0e76a8','linkedin')} onMouseOut={()=>mouseOut('linkedin')}/>
                                     </a>
                                 </li>
                                 <li className="footer-item">
-                                    <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer" className="footer-color">
+                                    <a href="https://api.whatsapp.com/send?phone=541124099788&text=Hola%20*EG*%20%2C%20quiero%20hablar%20con%20un%20Asesor%20Comercial.%20%F0%9F%98%80" target="_blank" rel="noreferrer" className="footer-color">
                                         <WhatsAppIcon id="whatsapp" onMouseOver={()=>mouseOver('#4FCE5D','whatsapp')} onMouseOut={()=>mouseOut('whatsapp')}/>
                                     </a>    
                                 </li>
