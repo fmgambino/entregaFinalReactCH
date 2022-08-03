@@ -28,7 +28,7 @@ const ItemDetailContainer = ({title}) => {
                     <h2>{title}</h2>
                     <ItemDetail data={detail}/>    
                                
-                {console.log(detail)}     
+                {/* {console.log(detail)}      */}
             </Container>
             </div>
         </>  

@@ -32,7 +32,7 @@ const Contacto = () => {
             message: msg
         }
         
-        console.log(newMessage);
+        // console.log(newMessage);
         setFlag(false)
         saveMsg(newMessage)
             .then((respuesta)=>{

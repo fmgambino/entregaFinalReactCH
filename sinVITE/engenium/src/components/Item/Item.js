@@ -15,11 +15,11 @@ const Item = ({nombreProducto, precioProducto, imagenProducto, stockProducto, id
     const otherClick = () =>{
         if (title === "Automatizacion Industrial"){
             variableH = "Automatizacion Industrial";
-            console.log(variableH);
+            // console.log(variableH);
         }
         if (title === "Medidores Trifasicos"){
             variableH = "Medidores Trifasicos";
-            console.log(variableH);
+            // console.log(variableH);
         }        
     }
     return(

@@ -29,7 +29,7 @@ const CartWidget = () => {
         }else{
             return(
                 <>
-                    {console.log("no hay nada")}
+                    {/* {console.log("no hay nada")} */}
                 </>
             )
         }

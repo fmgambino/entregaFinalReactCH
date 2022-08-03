@@ -31,7 +31,7 @@ const CartContextProvider = ({children}) =>{
             setProdsInCart(quantityItem.reduce((a, b) => a + b, 0));  
             functionStorage(preciosItem,quantityItem,cart,preciosItem.reduce((a, b) => a + b, 0),quantityItem.reduce((a, b) => a + b, 0));
         }else{
-            console.log("El producto ya se encontraba en el carrito"); 
+            // console.log("El producto ya se encontraba en el carrito"); 
         }       
     }
 

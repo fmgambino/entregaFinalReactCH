@@ -36,7 +36,7 @@ const GetProduct = async(id) =>{
 
 const saveData = async(newOr) =>{
     const orderDoc = await addDoc(collection(db,"ordenes"),newOr);
-    console.log("nueva orden en cARTCONTEX",orderDoc.id)
+    // console.log("nueva orden en cARTCONTEX",orderDoc.id)
     return orderDoc.id
 }
 
@@ -48,7 +48,7 @@ const GetOrder = async(id) =>{
 
 const saveMsg = async(newMsg) =>{
     const msgDoc = await addDoc(collection(db,"mensajes"),newMsg);
-    console.log("nuevo mensaje en cARTCONTEX",msgDoc.id)
+    // console.log("nuevo mensaje en cARTCONTEX",msgDoc.id)
     return msgDoc.id
 }
 

@@ -144,7 +144,7 @@ const Cart = () => {
         console.log(newOrder);
         saveData(newOrder)
             .then((respuesta)=>{
-                console.log("1 - Respuesta mostrada en cart: ",respuesta);
+                // console.log("1 - Respuesta mostrada en cart: ",respuesta);
                 navigate(`/comprado/${respuesta}`);
                 clear();
             });        
@@ -177,7 +177,7 @@ const Cart = () => {
         <>
             <Container>
                 <div className='cart-container'>
-                    {console.log("Productos existentes en PAGINA CARRITO", cart)}
+                    {/* {console.log("Productos existentes en PAGINA CARRITO", cart)} */}
                     {imprimir()} 
                     <DisplayElements condition={cart.length}/>  
                     {displayForm(cart.length)}                   
