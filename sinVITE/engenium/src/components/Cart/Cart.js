@@ -141,7 +141,7 @@ const Cart = () => {
             date: new Date(),
             total: sumatoria("precios")
         }
-        console.log(newOrder);
+        // console.log(newOrder);
         saveData(newOrder)
             .then((respuesta)=>{
                 // console.log("1 - Respuesta mostrada en cart: ",respuesta);
